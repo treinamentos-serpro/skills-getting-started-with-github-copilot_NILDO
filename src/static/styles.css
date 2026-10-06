@@ -70,8 +70,34 @@ section h3 {
   color: #0066cc;
 }
 
+.activity-card h5 {
+  margin: 12px 0 6px;
+  color: #1a237e;
+}
+
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.participant-list {
+  list-style: none;
+}
+
+.participant-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.cancel-signup-button {
+  padding: 0 8px;
+  background-color: #c62828;
+}
+
+.cancel-signup-button:hover {
+  background-color: #8e0000;
 }
 
 .form-group {
